@@ -1,0 +1,49 @@
+#design-wrapper {
+    width: 75%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#design-space {
+    margin: 1rem;
+    /* border: 1px solid black; */
+}
+
+#design-space > * {
+    margin-bottom: 0.5rem;
+}
+
+.subsection-space, #criteria-space {
+    border: 1px solid black;
+    margin: 1rem;
+    padding: 0.7rem;
+}
+
+.add-section {
+    padding: 0.5rem;
+    border: 1px solid black;
+}
+
+#added-section, .added-subsection, .added-criteria {
+    display: flex;
+    justify-content: space-around;
+}
+
+.design-text {
+    font-size: 2rem;
+    align-self: center;
+}
+
+.design-btn {
+    font-size: 250%;
+    padding: 1rem;
+    margin: 0.3rem;
+    border: 1px solid black;
+    border-radius: 100%;
+}
+
+.design-btn:active {
+    color: lightgrey;
+    border-color: lightgrey;
+}
+

@@ -1,0 +1,16 @@
+html, body {
+  margin: 0;
+  background-color: whitesmoke;
+  color: black;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+:root {
+  --factorycat-red: red;
+  --tomcat-grey: grey;
+  --kodiak-orange: orange;
+  --timberline-blue: blue;
+}
